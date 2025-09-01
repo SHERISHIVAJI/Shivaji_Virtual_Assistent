@@ -67,11 +67,17 @@ h1{
     body {
         text-align: center;
     }
+
+    #logo {
+        height: 350px;
+        width: 300px;
+    }
     
     h1 {
         flex: 0 0 100%;
         max-width: 100%;
     }
+
     spam {
         flex: 0 0 50%;
         max-width: 50%;
