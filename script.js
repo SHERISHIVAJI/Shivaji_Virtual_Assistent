@@ -47,7 +47,7 @@ function takeCommand(message){
     btn.style.display = "flex"
     voice.style.display = "none"
 
-    if (message.includes("hello, sheru") || message.includes("hey, sheru")) {
+    if (message.includes("hello, sheru") || message.includes("hey, sheru") || message.includes("hello sheru") || message.includes("hey sheru")) {
         speak("Hello, what can I help you with?");
     } else {
         let searchQuery = message.replace("sheru, open","").trim();
