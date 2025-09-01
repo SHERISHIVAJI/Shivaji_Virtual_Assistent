@@ -62,3 +62,19 @@ h1{
     box-shadow: 2px 2px 20px rgb(14, 130, 225),2px 2px 20px rgb(231, 15, 184);
     letter-spacing: 2px;
 }
+
+@media (max-width: 800px) {
+    body {
+        text-align: center;
+    }
+    
+    h1 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    spam {
+        flex: 0 0 50%;
+        max-width: 50%;
+        text-align: center;
+    }
+}
